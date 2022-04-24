@@ -1,0 +1,7 @@
+---
+- name: "Configure and deploy the webservers and application code"
+  hosts: client2
+  gather_facts: true
+  become: true
+  roles:
+      - apache

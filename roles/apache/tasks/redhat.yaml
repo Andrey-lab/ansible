@@ -1,0 +1,9 @@
+- name: Install components httpd and ufw
+  yum:
+    name: "{{ item }}"
+    state: latest
+    update_cache: yes
+  loop:
+    - httpd
+    - ufw
+
