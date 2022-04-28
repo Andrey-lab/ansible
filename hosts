@@ -6,7 +6,7 @@ clients:
       #ansible_ssh_private_key_file: ~/.ssh/id_rsa
       #ansible_become_pass: Pupok321
     client2:
-      ansible_host: 192.168.60.9
+      ansible_host: 51.250.68.110
       #ansible_user: ansible
       #ansible_ssh_private_key_file: ~/.ssh/id_rsa
       #ansible_become_pass: Pupok321
